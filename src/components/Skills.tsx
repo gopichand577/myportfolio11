@@ -5,12 +5,10 @@ const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const technicalSkills = [
-    { name: 'React/Next.js', level: 95 },
-    { name: 'TypeScript', level: 90 },
-    { name: 'Node.js', level: 85 },
     { name: 'Python', level: 80 },
-    { name: 'PostgreSQL', level: 85 },
-    { name: 'AWS/Cloud', level: 75 },
+    { name: 'C', level: 75 },
+    { name: 'Java', level: 70 },
+    { name: 'SQL', level: 75 },
   ];
 
   const softSkills = [
@@ -84,7 +82,7 @@ const Skills = () => {
         </div>
 
         <div className="mt-16 grid grid-cols-2 md:grid-cols-4 gap-8">
-          {['React', 'Node.js', 'Python', 'AWS'].map((tech, index) => (
+          {['Python', 'C', 'Java', 'SQL'].map((tech, index) => (
             <div
               key={tech}
               className="glass-effect p-6 rounded-xl text-center hover:scale-105 transition-transform duration-300"

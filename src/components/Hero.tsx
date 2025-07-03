@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from 'react';
 
 const Hero = () => {
@@ -50,8 +51,7 @@ const Hero = () => {
             </p>
           </div>
           <p className="text-lg md:text-xl text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto">
-            Crafting digital experiences that bridge the gap between imagination and reality. 
-            Welcome to my portfolio where innovation meets design.
+            Learning with love and building with passion.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button

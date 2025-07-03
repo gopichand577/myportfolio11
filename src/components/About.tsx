@@ -25,14 +25,8 @@ const About = () => {
           <div className="animate-fade-in-up">
             <h3 className="text-3xl font-bold mb-6 text-cyan-400">Hello, I'm Gopichand!</h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              I'm a passionate Full Stack Developer with over 5 years of experience creating 
-              digital solutions that make a difference. My journey began with a curiosity 
-              about how things work, which led me to fall in love with coding and design.
-            </p>
-            <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              When I'm not coding, you'll find me exploring new technologies, contributing to 
-              open-source projects, or enjoying a good cup of coffee while sketching out my 
-              next big idea.
+              Skilled in building responsive and dynamic websites using HTML, CSS, JavaScript, and Python.
+              I focus on clean code, smooth user experiences, and continuous learning to grow as a full stack developer.
             </p>
 
             <div className="grid grid-cols-2 gap-6">
@@ -49,9 +43,10 @@ const About = () => {
                 <h4 className="font-semibold text-purple-400 mb-2">Interests</h4>
                 <ul className="text-sm text-gray-600 dark:text-gray-300 space-y-1">
                   <li>• AI & Machine Learning</li>
-                  <li>• Sustainable Tech</li>
-                  <li>• Space Technology</li>
-                  <li>• Minimalist Design</li>
+                  <li>• Learning New Technologies</li>
+                  <li>• Problem Solving & Debugging</li>
+                  <li>• Reading About Startups & Innovation</li>
+                  <li>• Attending Hackathons & Tech Events</li>
                 </ul>
               </div>
             </div>

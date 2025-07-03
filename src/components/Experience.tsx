@@ -6,11 +6,26 @@ const Experience = () => {
       degree: "Bachelor of Science in Computer Science",
       period: "2023 - 2027",
       gpa: "Pursuing"
+    }
+  ];
+
+  const certifications = [
+    {
+      institution: "HackerRank",
+      degree: "Python Basics",
+      period: "2024",
+      gpa: "Certified"
     },
     {
-      institution: "Google",
-      degree: "Google Cloud Professional Developer",
-      period: "2022",
+      institution: "Coursera",
+      degree: "Google AI Essentials",
+      period: "2024", 
+      gpa: "Certified"
+    },
+    {
+      institution: "CodeChef",
+      degree: "Advanced Python",
+      period: "2024",
       gpa: "Certified"
     }
   ];
@@ -24,25 +39,52 @@ const Experience = () => {
         </div>
 
         <div className="max-w-3xl mx-auto">
-          <div className="space-y-8">
-            {education.map((edu, index) => (
-              <div
-                key={edu.institution}
-                className="glass-effect p-6 rounded-xl hover:scale-105 transition-all duration-300 animate-fade-in-up"
-                style={{ animationDelay: `${index * 0.1}s` }}
-              >
-                <div className="flex items-start justify-between mb-4">
-                  <div>
-                    <h4 className="text-lg font-bold text-purple-400">{edu.degree}</h4>
-                    <p className="text-cyan-400 font-medium">{edu.institution}</p>
+          <div className="mb-12">
+            <h3 className="text-2xl font-bold mb-8 text-cyan-400">Education</h3>
+            <div className="space-y-8">
+              {education.map((edu, index) => (
+                <div
+                  key={edu.institution}
+                  className="glass-effect p-6 rounded-xl hover:scale-105 transition-all duration-300 animate-fade-in-up"
+                  style={{ animationDelay: `${index * 0.1}s` }}
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <h4 className="text-lg font-bold text-purple-400">{edu.degree}</h4>
+                      <p className="text-cyan-400 font-medium">{edu.institution}</p>
+                    </div>
+                    <span className="text-sm text-gray-500 bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">
+                      {edu.period}
+                    </span>
                   </div>
-                  <span className="text-sm text-gray-500 bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">
-                    {edu.period}
-                  </span>
+                  <p className="text-gray-600 dark:text-gray-300">{edu.gpa}</p>
                 </div>
-                <p className="text-gray-600 dark:text-gray-300">{edu.gpa}</p>
-              </div>
-            ))}
+              ))}
+            </div>
+          </div>
+
+          <div>
+            <h3 className="text-2xl font-bold mb-8 text-purple-400">Certifications</h3>
+            <div className="space-y-8">
+              {certifications.map((cert, index) => (
+                <div
+                  key={cert.institution + cert.degree}
+                  className="glass-effect p-6 rounded-xl hover:scale-105 transition-all duration-300 animate-fade-in-up"
+                  style={{ animationDelay: `${(index + education.length) * 0.1}s` }}
+                >
+                  <div className="flex items-start justify-between mb-4">
+                    <div>
+                      <h4 className="text-lg font-bold text-purple-400">{cert.degree}</h4>
+                      <p className="text-cyan-400 font-medium">{cert.institution}</p>
+                    </div>
+                    <span className="text-sm text-gray-500 bg-gray-200 dark:bg-gray-700 px-3 py-1 rounded-full">
+                      {cert.period}
+                    </span>
+                  </div>
+                  <p className="text-gray-600 dark:text-gray-300">{cert.gpa}</p>
+                </div>
+              ))}
+            </div>
           </div>
         </div>
 

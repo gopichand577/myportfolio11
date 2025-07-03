@@ -21,7 +21,7 @@ const Index = () => {
       <Contact />
       
       <footer className="py-8 text-center text-gray-600 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
-        <p>&copy; 2024 Alex Johnson. All rights reserved.</p>
+        <p>&copy; 2025 GOPICHAND NAGANABOYINA. All rights reserved.</p>
       </footer>
     </div>
   );
