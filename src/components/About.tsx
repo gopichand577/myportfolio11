@@ -13,8 +13,8 @@ const About = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto rounded-full overflow-hidden border-4 border-cyan-400 animate-glow">
                 <img
-                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face"
-                  alt="Alex Johnson"
+                  src="/lovable-uploads/d9f3de93-053a-4947-bc2c-ff2fb266e405.png"
+                  alt="Gopichand Naganaboyina"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -23,7 +23,7 @@ const About = () => {
           </div>
 
           <div className="animate-fade-in-up">
-            <h3 className="text-3xl font-bold mb-6 text-cyan-400">Hello, I'm Alex!</h3>
+            <h3 className="text-3xl font-bold mb-6 text-cyan-400">Hello, I'm Gopichand!</h3>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
               I'm a passionate Full Stack Developer with over 5 years of experience creating 
               digital solutions that make a difference. My journey began with a curiosity 
