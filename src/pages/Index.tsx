@@ -10,7 +10,7 @@ import Contact from '@/components/Contact';
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background text-foreground">
+    <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
       <ThemeToggle />
       <Navigation />
       <Hero />
@@ -20,8 +20,8 @@ const Index = () => {
       <Experience />
       <Contact />
       
-      <footer className="py-8 text-center text-gray-600 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700">
-        <p>&copy; 2025 GOPICHAND NAGANABOYINA. All rights reserved.</p>
+      <footer className="py-6 sm:py-8 text-center text-gray-600 dark:text-gray-400 border-t border-gray-200 dark:border-gray-700 px-4">
+        <p className="text-sm sm:text-base">&copy; 2025 GOPICHAND NAGANABOYINA. All rights reserved.</p>
       </footer>
     </div>
   );
