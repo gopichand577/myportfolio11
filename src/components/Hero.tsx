@@ -1,10 +1,9 @@
-
 import { useState, useEffect } from 'react';
 
 const Hero = () => {
   const [text, setText] = useState('');
   const [isTyping, setIsTyping] = useState(true);
-  const fullText = "Full Stack Developer & UI/UX Designer";
+  const fullText = "Full Stack Developer";
 
   useEffect(() => {
     let index = 0;
