@@ -42,7 +42,7 @@ const Hero = () => {
       <div className="text-center z-10 max-w-4xl mx-auto px-4">
         <div className="animate-fade-in-up">
           <h1 className="text-6xl md:text-8xl font-bold mb-6 text-gradient">
-            Alex Johnson
+            GOPICHAND NAGANABOYINA
           </h1>
           <div className="h-16 mb-8">
             <p className="text-2xl md:text-3xl font-light text-gray-600 dark:text-gray-300">
